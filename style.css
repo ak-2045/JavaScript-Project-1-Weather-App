@@ -1,0 +1,199 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family:"Poppins",sans-serif;
+    box-sizing: border-box;
+    /* padding and border to be included in the given dimension of the box */
+    /* matlab when we add extra padding and border woh height width mein adjust hoga, naa ki extra lagega */
+
+}
+
+body
+{
+background: #222;
+/* changing the background colour */
+}
+
+.card
+{
+    /* spaces between number and units were creating a problem so just sure it doesn't happen */
+    
+    width:90%;
+    /* will take up 90% of available width of the parent container */
+
+    max-width:470px;
+    /* max width of the box, not more than this even at ful size */
+    
+    background:linear-gradient(135deg, #00feba, #5b548a);
+    /* The card's background is now a linear gradient and looks cool! */
+    /* The degree denotes the flow of the gradient, and then the two colours of the gradient */
+
+    
+    color:#fff;
+    /*colour of the text box*/
+
+    margin: 100px auto 0;
+    /* Margin: Outside space between the element and other elements. */
+
+    border-radius:20px;
+    /* curves the edges of the container of the search box and icon is contained in */
+
+    padding:40px 35px;
+    /* Padding: Inside space between content and the element's border. */
+
+    text-align:center;
+    /* The text is aligned to the centre */
+}
+
+.search
+{
+    width:100%;
+    /* width of the entire search box container consisting of the elements (search box + icon) */
+
+    display:flex;
+    /* elements of the container become flexible, can be adjusted anywhere */
+
+    align-items:center;
+    /* All the elements items are aligned in the centre */
+
+    justify-content:space-between;
+    /* The content is now in the pattern of the justified text. Entire space is divided between the elements */
+    /* Let say here are two elements (search bar + search icon) one gets attached to the left, other to the right */
+    /* And there will be space between the two elements, covering the entire container space */
+}
+
+.search input
+{
+
+/* Desining the search bar, input waala area */
+
+border:0;
+outline:0;
+
+/* Border is the part of the element's box, and wraps around padding and content. 
+The border affects the size of the elements. */
+
+/* Outline doesn't affect the size of or layout of the element. 
+It does not wrap around the element's content, just a line around the entire element */
+
+background:#ebfffe;
+color:#555;
+/* Colour of the text */
+
+padding: 10px 25px;
+/* increases the size of the container */
+/* 10 px - top and bottom */
+/* 25 px - left and right */
+
+height: 60px;
+/* Sets the height of the element. Overflowed part will not be displayed */
+
+border-radius: 30px;
+
+flex:1;
+/* takes up all space in the container */
+
+margin-right: 16px;
+/* adds space between the search box and the search icon */
+
+font-size: 18px;
+
+
+}
+
+.search button
+{
+
+border:0;
+outline:0;
+
+background:#ebfffe;
+border-radius: 50%;
+
+width: 60px;
+height: 60px;
+
+cursor: pointer;
+/* Changes the cursor icon of the mouse to a hand icon indicating the element is clickable */
+
+}
+
+.search button img
+
+{
+
+    width:16px;
+
+}
+
+.weather icon
+{
+    width:170px;
+    margin-top:30px;
+}
+
+.weather h1
+{
+
+font-size:60px;
+font-weight:500;
+
+}
+
+.weather h2
+{
+
+font-size:30px;
+font-weight:1;
+margin-top:-10px;    
+
+}
+
+.details
+{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+margin-top: 50px;
+
+}
+
+.col
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img
+{
+
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+.humidity, .wind
+{
+    font-size:20px;
+    margin-top:-6px;
+    
+}
+
+.adjustment1
+{
+margin-top:-7px;
+}
+
+.adjustment2
+{
+margin-top:-6px;
+}
+
+.weather
+{
+display: none;
+/* Initially hide the card before displaying */
+}
