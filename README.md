@@ -1,6 +1,6 @@
 # Whether?
 
-Welcome to **whether?**, the weather app that answers the question: *whether* or not you'll need an umbrella today! 🌧️🌞
+Welcome to **[whether?](https://ak-2045.github.io/JavaScript-Project-1-Weather-App/)**, the weather app that answers the question: *whether* or not you'll need an umbrella today! 🌧️🌞
 
 This delightful little app will fetch the current weather conditions for any city you desire. All you have to do is type in the city name and click the search button! Let's dive into how it all works, step by step.
 
